@@ -17,11 +17,15 @@ public class StudiKasus230 {
         jenisKegiatan = sc.nextLine().trim().toLowerCase();
         System.out.print("Jumlah dokumen yang diupload (1-4): ");
         jumlahDokumen = sc.nextInt();
+        System.out.print("Peringkat juara 1-3 isi 0 jika tidak juara atau PKM: ");
+        peringkatJuara = sc.nextInt();
 
+        System.out.println("Nama mahasiswa: " + namaMahasiswa);
+        System.out.println("Jenis kegiatan: " + jenisKegiatan);
+        System.out.println("Jumlah dokumen: " + jumlahDokumen);
+        System.out.println("Peringkat juara: " + peringkatJuara);
+    
         if (jenisKegiatan.equalsIgnoreCase("BELMAWA") || jenisKegiatan.equalsIgnoreCase("BAKORMA") || jenisKegiatan.equalsIgnoreCase("Mandiri")){
-                System.out.print("Peringkat juara 1-3 isi 0 jika tidak juara: ");
-                peringkatJuara = sc.nextInt();
-                System.out.println("Peringkat juara: " + peringkatJuara);
                 if (peringkatJuara >= 1 && peringkatJuara <= 3){
 
                 if (jumlahDokumen == 4) {
@@ -48,9 +52,6 @@ public class StudiKasus230 {
             statusPendanaan = "Tidak dapat pendanaan karena jenis kegiatan tidak sesuai";
         }
         
-    System.out.println("Nama mahasiswa: " + namaMahasiswa);
-    System.out.println("Jenis kegiatan: " + jenisKegiatan);
-    System.out.println("Jumlah dokumen: " + jumlahDokumen);
     System.out.println("Status pendanaan: " + statusPendanaan);
     }
     
