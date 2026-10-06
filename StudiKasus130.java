@@ -8,19 +8,19 @@ public class StudiKasus130 {
 
         System.out.print("Masukkan jumlah cup yang dibeli: ");
         jumlahCup = sc.nextInt();
-        system.out.print("Masukkan jumlah uang yang dibayarkan: ");
+        System.out.print("Masukkan jumlah uang yang dibayarkan: ");
         uangBayar = sc.nextInt();
 
-        int totalHarga = hargaPerCup * jumlahCup;
+        totalHarga = hargaPerCup * jumlahCup;
         diskon = 0;
 
-        if totalHarga >= 100000) {
+        if (totalHarga >= 100000) {
             diskon = (int) (totalHarga * 10 / 100);
         } 
         
         totalBayar = totalHarga - diskon;
 
-        if uangBayar >= totalBayar) {
+        if (uangBayar >= totalBayar) {
             kembalian = uangBayar - totalBayar;
             System.out.println("Kembalian: " + kembalian);
         } else {
