@@ -3,7 +3,7 @@ Nama    :Tunggal Avabsyasi
 NIM     :264107020239  
 Kelas   :TI - 1B   
 
-Hasil Uji Studi Kasus 2 oleh <Hilmi Yusroja>
+Hasil Uji Studi Kasus 2 oleh Hilmi Yusroja
 | No | Jenis | Dokumen | Juara/Dana | Output       | Sesuai? |
 |----|-------|---------|------------|--------------|---------|
 | 1  |belmawa| 2       | 1          | Tidak Berhak | Ya      |
