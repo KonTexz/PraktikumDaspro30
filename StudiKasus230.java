@@ -8,7 +8,7 @@ public class StudiKasus230 {
         String namaMahasiswa;
         int jumlahDokumen;
         int peringkatJuara;
-        boolean lolosPendanaan;
+        int lolosPendanaan;
         String statusPendanaan;
 
         System.out.print("Nama mahasiswa: ");
@@ -38,8 +38,8 @@ public class StudiKasus230 {
             }
         } else if (jenisKegiatan.equalsIgnoreCase("PKM")) {
             System.out.print("Apakah lolos pendanaan? (1 untuk ya, 0 untuk tidak): ");
-            lolosPendanaan = sc.nextBoolean();
-            if (lolosPendanaan == true) {
+            lolosPendanaan = sc.nextInt();
+            if (lolosPendanaan == 1) {
                 if (jumlahDokumen == 4) {
                     statusPendanaan = "Dapat pendanaan";
                 } else {
